@@ -1,0 +1,2 @@
+module GonzoHelper
+end

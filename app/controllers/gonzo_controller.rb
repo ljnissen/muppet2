@@ -1,0 +1,2 @@
+class GonzoController < ApplicationController
+end
