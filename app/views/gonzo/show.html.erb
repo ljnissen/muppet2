@@ -1,0 +1,7 @@
+<h1><%= @gonzo.title %></h1>
+<p><%= @gonzo.body %></p>
+<p><%= @gonzo.created_at %></p>
+<p>
+	<%= link_to "Edit", edit_gonzo_path(@gonzo) %>
+	<%= link_to "Delete", @gonzo, :confirm => "Are you sure?", :method => :delete %>
+</p>

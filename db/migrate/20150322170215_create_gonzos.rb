@@ -1,8 +1,8 @@
 class CreateGonzos < ActiveRecord::Migration
   def change
     create_table :gonzos do |t|
-      t.string :name
-      t.boolean :done
+      t.string :title
+      t.text :body
 
       t.timestamps null: false
     end

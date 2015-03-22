@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  done: false
+  title: MyString
+  body: MyText
 
 two:
-  name: MyString
-  done: false
+  title: MyString
+  body: MyText

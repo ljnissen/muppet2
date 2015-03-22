@@ -1,0 +1,11 @@
+<h1>This is Index</h1>
+
+<% @gonzos.each do |gonzo| %>
+
+	<p>
+		<%= link_to gonzo.title, gonzo %>
+	</p>
+	<hr />
+
+<% end %>
+<p><%= link_to "Add gonzo", new_gonzo_path %></p>
